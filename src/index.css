@@ -1,0 +1,35 @@
+/* src/index.css */
+
+@import 'tailwindcss/tailwind.css';
+
+:root {
+  --theme-color: #FFAF45;
+  --heading-color: #FFAF45;
+  --text-font: 'Bodoni', serif;
+  --border-color: #FFAF45;
+  --text-color-light: black;
+  --text-color-dark: white;
+}
+
+body {
+  font-family: var(--text-font);
+  color: var(--text-color-light);
+}
+
+.dark body {
+  color: var(--text-color-dark);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--heading-color);
+}
+
+.border-theme {
+  border-color: var(--border-color);
+}
+
+.bg-theme {
+  background-color: var(--theme-color);
+}
+
+/* Add any other custom styles here */
