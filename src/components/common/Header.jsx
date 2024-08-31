@@ -85,7 +85,7 @@ const Header = () => {
                         <FaTimes size="24px" />
                     </button>
                     <Link to="/" className="flex items-center">
-                        <img src={logo} alt="Logo" className="h-20 w-40 p-2" />
+                        <img src="https://techrhym.com/wp-content/uploads/2024/08/cropped-logotechrhym.png" alt="Logo" className="h-20 w-40 p-2" />
                     </Link>
                     <span className="animated-text text-lg lg:text-2xl font-bold text-center">
                         Welcome to Techrhym
