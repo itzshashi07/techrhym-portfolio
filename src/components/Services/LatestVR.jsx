@@ -27,9 +27,9 @@ const LatestVR = () => {
     if (carouselRef.current) {
       const intervalId = setInterval(() => {
         if (!isPaused && carouselRef.current) {
-          carouselRef.current.scrollLeft += 3; // Increased scroll speed
+          carouselRef.current.scrollLeft += 2; // Increase this value to make the scroll faster
         }
-      }, 20); // Adjusted interval time for faster scrolling
+      }, 20); // Decrease this value to make the interval faster
 
       return () => clearInterval(intervalId);
     }
@@ -51,10 +51,6 @@ const LatestVR = () => {
     }
   };
 
-  const openInNewTab = (url) => {
-    window.open(url, '_blank', 'noopener,noreferrer');
-  };
-
   return (
     <div className="flex flex-col items-center p-6 space-y-4">
       <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-6 text-center">Our Projects</h2>
@@ -67,12 +63,12 @@ const LatestVR = () => {
         </button>
         <div
           ref={carouselRef}
-          className="flex overflow-hidden space-x-4 w-full"
+          className="flex overflow-x-scroll scrollbar-hide space-x-4 w-full"
           style={{ scrollBehavior: 'smooth' }}
           onMouseEnter={() => setIsPaused(true)}
           onMouseLeave={() => setIsPaused(false)}
         >
-          {tours.map((tour, index) => (
+          {tours.concat(tours).map((tour, index) => (
             <div
               key={index}
               className="w-2/3 sm:w-1/3 min-w-[66%] sm:min-w-[33%] p-4 flex-shrink-0"
@@ -90,13 +86,6 @@ const LatestVR = () => {
                 >
                   <FaExternalLinkAlt className="text-xl" />
                 </button>
-                {/* Uncomment if you want to add "Open in New Tab" button */}
-                {/* <button
-                  onClick={() => openInNewTab(tour.url)}
-                  className="bg-orange-600 hover:bg-orange-700 text-white px-4 py-2 rounded-full transition-colors"
-                >
-                  Open in New Tab
-                </button> */}
               </div>
             </div>
           ))}
@@ -124,7 +113,6 @@ const LatestVR = () => {
               className="w-full h-[300px] sm:h-[400px] md:h-[500px] rounded-lg"
               frameBorder="0"
               allowFullScreen
-              onError={() => console.error('Failed to load the virtual tour.')}
             ></iframe>
           </div>
         </div>
