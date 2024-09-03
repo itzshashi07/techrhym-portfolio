@@ -9,19 +9,27 @@ const LatestVR = () => {
 
   const tours = [
     { title: "Grandview Resort", imageSrc: "https://images.pexels.com/photos/1450363/pexels-photo-1450363.jpeg?auto=compress&cs=tinysrgb&w=600", url: "https://grandviewresort.handsonweb.in/" },
-    { title: "Ocean Breeze Resort", imageSrc: "https://images.pexels.com/photos/271643/pexels-photo-271643.jpeg?auto=compress&cs=tinysrgb&w=600", url: "https://grandviewresort.handsonweb.in/" },
-    { title: "Sunny Haven Resort", imageSrc: "https://images.pexels.com/photos/2507007/pexels-photo-2507007.jpeg?auto=compress&cs=tinysrgb&w=600", url: "https://grandviewresort.handsonweb.in/" },
-    { title: "Mountain Retreat Resort", imageSrc: "https://images.pexels.com/photos/70441/pexels-photo-70441.jpeg?auto=compress&cs=tinysrgb&w=600", url: "https://grandviewresort.handsonweb.in/" },
-    { title: "Tropical Paradise Resort", imageSrc: "https://images.pexels.com/photos/13652239/pexels-photo-13652239.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load", url: "https://grandviewresort.handsonweb.in/" },
+    { title: "Virtual Tour", imageSrc: "https://images.pexels.com/photos/8730032/pexels-photo-8730032.jpeg?auto=compress&cs=tinysrgb&w=400", url: "https://brandsumo-virtual-tour.vercel.app/" },
+    { title: "Darklight Sample", imageSrc: "https://images.pexels.com/photos/34950/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=600", url: "https://darklight-nine.vercel.app/" },
+    { title: "VManshi Project 1", imageSrc: "https://images.pexels.com/photos/1536619/pexels-photo-1536619.jpeg?auto=compress&cs=tinysrgb&w=600", url: "https://vmanshifashion.in/" },
+    { title: "VManshi Project 2", imageSrc: "https://images.pexels.com/photos/972804/pexels-photo-972804.jpeg?auto=compress&cs=tinysrgb&w=400", url: "https://vmanshifashion.com/" },
+    { title: "BrandSumo", imageSrc: "https://resto-virtualtour.vercel.app/images/logonew.png", url: "https://nextechlab.vercel.app/" },
+    { title: "Impetus", imageSrc: "https://dentalweb-beta.vercel.app/aboutbanner.jpg", url: "https://impetus.thebrandsumo.com/" },
+    { title: "Prince Glass", imageSrc: "https://images.pexels.com/photos/27101948/pexels-photo-27101948/free-photo-of-modern-buildings-in-baku.jpeg?auto=compress&cs=tinysrgb&w=400", url: "https://princetuffglass.in/" },
+    { title: "Marble Tiles Wala", imageSrc: "https://images.pexels.com/photos/27023291/pexels-photo-27023291/free-photo-of-a-cat-standing-on-a-marble-countertop.jpeg?auto=compress&cs=tinysrgb&w=400", url: "#" },
+    { title: "Techrhym Blog", imageSrc: "https://images.pexels.com/photos/273222/pexels-photo-273222.jpeg?auto=compress&cs=tinysrgb&w=600", url: "https://techrhym.com/" },
+    { title: "Techrhym Portfolio", imageSrc: "https://techrhym.com/wp-content/uploads/2024/08/cropped-logotechrhym.png", url: "https://techrhym-portfolio.vercel.app/" },
+    { title: "Raj Homes", imageSrc: "https://img.freepik.com/free-photo/3d-rendering-house-model_23-2150799725.jpg?t=st=1725351723~exp=1725355323~hmac=c94a2da7f62bfe6d43e594609665f9cbd42be59222a94cce2d3d4399147123a6&w=740", url: "https://www.google.com/" },
+    { title: "Timesmantra", imageSrc: "https://images.pexels.com/photos/4240497/pexels-photo-4240497.jpeg?auto=compress&cs=tinysrgb&w=400", url: "https://timesmantra.com/" }
   ];
 
   useEffect(() => {
     if (carouselRef.current) {
       const intervalId = setInterval(() => {
         if (!isPaused && carouselRef.current) {
-          carouselRef.current.scrollLeft += 1;
+          carouselRef.current.scrollLeft += 3; // Increased scroll speed
         }
-      }, 30);
+      }, 20); // Adjusted interval time for faster scrolling
 
       return () => clearInterval(intervalId);
     }
@@ -49,7 +57,7 @@ const LatestVR = () => {
 
   return (
     <div className="flex flex-col items-center p-6 space-y-4">
-      <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-6 text-center">Our Projects </h2>
+      <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-6 text-center">Our Projects</h2>
       <div className="relative w-full">
         <button
           onClick={() => handleScroll('left')}
@@ -64,7 +72,7 @@ const LatestVR = () => {
           onMouseEnter={() => setIsPaused(true)}
           onMouseLeave={() => setIsPaused(false)}
         >
-          {tours.concat(tours).map((tour, index) => (
+          {tours.map((tour, index) => (
             <div
               key={index}
               className="w-2/3 sm:w-1/3 min-w-[66%] sm:min-w-[33%] p-4 flex-shrink-0"
@@ -82,6 +90,7 @@ const LatestVR = () => {
                 >
                   <FaExternalLinkAlt className="text-xl" />
                 </button>
+                {/* Uncomment if you want to add "Open in New Tab" button */}
                 {/* <button
                   onClick={() => openInNewTab(tour.url)}
                   className="bg-orange-600 hover:bg-orange-700 text-white px-4 py-2 rounded-full transition-colors"
