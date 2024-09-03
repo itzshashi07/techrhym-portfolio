@@ -10,10 +10,10 @@ const LatestVR = () => {
   const tours = [
     { title: "Grandview Resort", imageSrc: "https://images.pexels.com/photos/1450363/pexels-photo-1450363.jpeg?auto=compress&cs=tinysrgb&w=600", url: "https://grandviewresort.handsonweb.in/" },
     { title: "Virtual Tour", imageSrc: "https://images.pexels.com/photos/8730032/pexels-photo-8730032.jpeg?auto=compress&cs=tinysrgb&w=400", url: "https://brandsumo-virtual-tour.vercel.app/" },
-    { title: "Darklight Sample", imageSrc: "https://images.pexels.com/photos/34950/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=600", url: "https://darklight-nine.vercel.app/" },
+    { title: "Darklight Sample", imageSrc: "https://images.pexels.com/photos/2990644/pexels-photo-2990644.jpeg?auto=compress&cs=tinysrgb&w=400", url: "https://darklight-nine.vercel.app/" },
     { title: "VManshi Project 1", imageSrc: "https://images.pexels.com/photos/1536619/pexels-photo-1536619.jpeg?auto=compress&cs=tinysrgb&w=600", url: "https://vmanshifashion.in/" },
     { title: "VManshi Project 2", imageSrc: "https://images.pexels.com/photos/972804/pexels-photo-972804.jpeg?auto=compress&cs=tinysrgb&w=400", url: "https://vmanshifashion.com/" },
-    { title: "BrandSumo", imageSrc: "https://resto-virtualtour.vercel.app/images/logonew.png", url: "https://nextechlab.vercel.app/" },
+    { title: "BrandSumo", imageSrc: "https://images.pexels.com/photos/7773735/pexels-photo-7773735.jpeg?auto=compress&cs=tinysrgb&w=400", url: "https://nextechlab.vercel.app/" },
     { title: "Impetus", imageSrc: "https://dentalweb-beta.vercel.app/aboutbanner.jpg", url: "https://impetus.thebrandsumo.com/" },
     { title: "Prince Glass", imageSrc: "https://images.pexels.com/photos/27101948/pexels-photo-27101948/free-photo-of-modern-buildings-in-baku.jpeg?auto=compress&cs=tinysrgb&w=400", url: "https://princetuffglass.in/" },
     { title: "Marble Tiles Wala", imageSrc: "https://images.pexels.com/photos/27023291/pexels-photo-27023291/free-photo-of-a-cat-standing-on-a-marble-countertop.jpeg?auto=compress&cs=tinysrgb&w=400", url: "#" },
