@@ -17,7 +17,7 @@ const LatestVR = () => {
     { title: "Impetus", imageSrc: "https://dentalweb-beta.vercel.app/aboutbanner.jpg", url: "https://impetus.thebrandsumo.com/" },
     { title: "Prince Glass", imageSrc: "https://images.pexels.com/photos/27101948/pexels-photo-27101948/free-photo-of-modern-buildings-in-baku.jpeg?auto=compress&cs=tinysrgb&w=400", url: "https://princetuffglass.in/" },
     { title: "Marble Tiles Wala", imageSrc: "https://images.pexels.com/photos/27023291/pexels-photo-27023291/free-photo-of-a-cat-standing-on-a-marble-countertop.jpeg?auto=compress&cs=tinysrgb&w=400", url: "#" },
-    { title: "Techrhym Blog", imageSrc: "https://images.pexels.com/photos/273222/pexels-photo-273222.jpeg?auto=compress&cs=tinysrgb&w=600", url: "https://techrhym.com/" },
+    // { title: "Techrhym Blog", imageSrc: "https://images.pexels.com/photos/273222/pexels-photo-273222.jpeg?auto=compress&cs=tinysrgb&w=600", url: "https://techrhym.com/" },
     { title: "Techrhym Portfolio", imageSrc: "https://techrhym.com/wp-content/uploads/2024/08/cropped-logotechrhym.png", url: "https://techrhym-portfolio.vercel.app/" },
     { title: "Raj Homes", imageSrc: "https://img.freepik.com/free-photo/3d-rendering-house-model_23-2150799725.jpg?t=st=1725351723~exp=1725355323~hmac=c94a2da7f62bfe6d43e594609665f9cbd42be59222a94cce2d3d4399147123a6&w=740", url: "https://www.google.com/" },
     { title: "Timesmantra", imageSrc: "https://images.pexels.com/photos/4240497/pexels-photo-4240497.jpeg?auto=compress&cs=tinysrgb&w=400", url: "https://timesmantra.com/" }
