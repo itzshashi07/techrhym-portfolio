@@ -9,7 +9,7 @@ const LatestVR = () => {
 
   const tours = [
     { title: "Grandview Resort", imageSrc: "https://images.pexels.com/photos/1450363/pexels-photo-1450363.jpeg?auto=compress&cs=tinysrgb&w=600", url: "https://grandviewresort.handsonweb.in/" },
-    { title: "Virtual Tour", imageSrc: "https://images.pexels.com/photos/8730032/pexels-photo-8730032.jpeg?auto=compress&cs=tinysrgb&w=400", url: "https://brandsumo-virtual-tour.vercel.app/" },
+    { title: "Virtual Tour", imageSrc: "https://images.pexels.com/photos/4145356/pexels-photo-4145356.jpeg?auto=compress&cs=tinysrgb&w=400", url: "https://brandsumo-virtual-tour.vercel.app/" },
     { title: "Darklight Sample", imageSrc: "https://images.pexels.com/photos/2990644/pexels-photo-2990644.jpeg?auto=compress&cs=tinysrgb&w=400", url: "https://darklight-nine.vercel.app/" },
     { title: "VManshi Project 1", imageSrc: "https://images.pexels.com/photos/1536619/pexels-photo-1536619.jpeg?auto=compress&cs=tinysrgb&w=600", url: "https://vmanshifashion.in/" },
     { title: "VManshi Project 2", imageSrc: "https://images.pexels.com/photos/972804/pexels-photo-972804.jpeg?auto=compress&cs=tinysrgb&w=400", url: "https://vmanshifashion.com/" },
