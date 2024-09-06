@@ -66,7 +66,7 @@ const Header = () => {
                         <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="mx-2 hover:text-[#FFAF45]">
                             <FaInstagram className="text-pink-500 dark:text-white bg-white dark:bg-[#2b363a] rounded-full p-2" size="32px" />
                         </a>
-                        <a href="https://wa.me/your-number" target="_blank" rel="noopener noreferrer" className="mx-2 hover:text-[#FFAF45]">
+                        <a href="https://wa.me/+918078633912" target="_blank" rel="noopener noreferrer" className="mx-2 hover:text-[#FFAF45]">
                             <FaWhatsapp className="text-green-500 dark:text-white bg-white dark:bg-[#2b363a] rounded-full p-2" size="32px" />
                         </a>
                     </div>
@@ -103,7 +103,7 @@ const Header = () => {
                         <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="hover:text-[#FFAF45]">
                             <FaInstagram className="text-pink-500 dark:text-white bg-white dark:bg-[#2b363a] rounded-full p-2" size="32px" />
                         </a>
-                        <a href="https://wa.me/your-number" target="_blank" rel="noopener noreferrer" className="hover:text-[#FFAF45]">
+                        <a href="https://wa.me/+918078633912" target="_blank" rel="noopener noreferrer" className="hover:text-[#FFAF45]">
                             <FaWhatsapp className="text-green-500 dark:text-white bg-white dark:bg-[#2b363a] rounded-full p-2" size="32px" />
                         </a>
                     </div>

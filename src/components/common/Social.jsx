@@ -29,14 +29,14 @@ const Social = () => {
                         <ul>
                             <li className="flex items-center py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-700 cursor-pointer rounded-md">
                                 <FaWhatsapp size={20} className="text-green-500 mr-2" />
-                                <a href="https://wa.me/9829982153" target="_blank" rel="noopener noreferrer">
+                                <a href="https://wa.me/+918078633912" target="_blank" rel="noopener noreferrer">
                                     Chat with HR
                                 </a>
                             </li>
                             <li className="flex items-center py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-700 cursor-pointer rounded-md">
                                 <FaWhatsapp size={20} className="text-green-500 mr-2" />
-                                <a href="https://wa.me/8078633912" target="_blank" rel="noopener noreferrer">
-                                    Support
+                                <a href="https://wa.me/+918078633912" target="_blank" rel="noopener noreferrer">
+                                    Chat Support
                                 </a>
                             </li>
                         </ul>
