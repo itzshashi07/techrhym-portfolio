@@ -94,13 +94,13 @@ const Header = () => {
                     Empowering Insights, Fueling Curiosity
                     </span>
                     <div className="flex flex-col items-center space-y-4">
-                        <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="hover:text-[#FFAF45]">
+                        <a href="https://www.linkedin.com/in/shashi-kumar-362226236/" target="_blank" rel="noopener noreferrer" className="hover:text-[#FFAF45]">
                             <FaLinkedinIn className="text-blue-600 dark:text-white bg-white dark:bg-[#2b363a] rounded-full p-2" size="32px" />
                         </a>
-                        <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="hover:text-[#FFAF45]">
+                        <a href="https://x.com/officiaIShashi" target="_blank" rel="noopener noreferrer" className="hover:text-[#FFAF45]">
                             <FaTwitter className="text-blue-400 dark:text-white bg-white dark:bg-[#2b363a] rounded-full p-2" size="32px" />
                         </a>
-                        <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="hover:text-[#FFAF45]">
+                        <a href="https://www.instagram.com/shashii_o7/" target="_blank" rel="noopener noreferrer" className="hover:text-[#FFAF45]">
                             <FaInstagram className="text-pink-500 dark:text-white bg-white dark:bg-[#2b363a] rounded-full p-2" size="32px" />
                         </a>
                         <a href="https://wa.me/+918078633912" target="_blank" rel="noopener noreferrer" className="hover:text-[#FFAF45]">
